@@ -1,0 +1,45 @@
+package com.example.android.eventatyapp;
+
+/**
+ * Created by rihamkhatib on 3/20/2018.
+ */
+
+public class Category {
+
+    private String name ;
+    private int id ;
+    private int image ;
+
+    public Category() {
+    }
+
+    public Category(String name, int id, int image) {
+        this.name = name;
+        this.id = id;
+        this.image = image;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public int getImage() {
+        return image;
+    }
+
+    public void setImage(int image) {
+        this.image = image;
+    }
+}
